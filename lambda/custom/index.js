@@ -51,7 +51,10 @@ const GetPenaltyGameHandler = {
       let afterSound = afterSounds[Math.floor(Math.random() * afterSounds.length)];
       let afterVoice1 = afterVoices1[Math.floor(Math.random() * afterVoices1.length)];
       let afterVoice2 = afterVoices2[Math.floor(Math.random() * afterVoices2.length)];
-      let speechOutput = 'これから、罰ゲームを発表します。<break time="200ms"/>心の準備はいいですか？<break time="1000ms"/>罰ゲームは<break time="500ms"/>' + beforeSound + randomData + '<break time="200ms"/>です！' + afterSound + afterVoice1 + '<break time="100ms"/>' + afterVoice2;
+      let speechOutput = 'これから、罰ゲームを発表します。<break time="200ms"/>心の準備はいいですか？' +
+            '<break time="1000ms"/>罰ゲームは<break time="500ms"/>' +
+            beforeSound + randomData + '<break time="200ms"/>です！' +
+            afterSound + afterVoice1 + '<break time="100ms"/>' + afterVoice2;
   
       return handlerInput.responseBuilder
         .speak(speechOutput)
