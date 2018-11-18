@@ -3,7 +3,7 @@
     "publishingInformation": {
       "locales": {
         "ja-JP": {
-          "summary": "あなたの罰ゲームを決めてあげましょう。さあ、心の準備はいいですか…？",
+          "summary": "あなたに罰ゲームの判定がくだされます。どんな罰ゲームが出てくるか、さあ心の準備はいいですか…？",
           "examplePhrases": [
             "アレクサ、罰ゲーム判定を開いて",
             "アレクサ、罰ゲーム判定を始めて",
@@ -13,10 +13,10 @@
             "罰ゲーム",
             "ゲーム"
           ],
-          "smallIconUri": "https://s3-ap-northeast-1.amazonaws.com/gosign-alexa-assets/otoshidama/icon_small.png",
-          "largeIconUri": "https://s3-ap-northeast-1.amazonaws.com/gosign-alexa-assets/otoshidama/icon_large.png",
+          "smallIconUri": "https://s3-ap-northeast-1.amazonaws.com/gosign-alexa-assets/penalty-game/icon_small.png",
+          "largeIconUri": "https://s3-ap-northeast-1.amazonaws.com/gosign-alexa-assets/penalty-game/icon_large.png",
           "name": "罰ゲーム判定",
-          "description": "罰ゲーム判定はランダムで罰ゲームを決めてくれるスキルです。\n宴会やパーティの余興、友達と遊ぶ時などに使ってみてください。\n\nこのスキルを始めるには、\n\"アレクサ、罰ゲーム判定を開いて\"\n\"アレクサ、罰ゲーム判定を始めて\"\n\"アレクサ、罰ゲーム判定\"\nのように話しかけてみてください。"
+          "description": "罰ゲーム判定はランダムで罰ゲームを決めてくれるスキルです。\n宴会やパーティの余興に、友達とゲームをして遊ぶ時などにぜひ使ってみてください。\n\nこのスキルを始めるには、\n\"アレクサ、罰ゲーム判定を開いて\"\n\"アレクサ、罰ゲーム判定を始めて\"\n\"アレクサ、罰ゲーム判定\"\nのように話しかけてみてください。"
         }
       },
       "isAvailableWorldwide": false,
