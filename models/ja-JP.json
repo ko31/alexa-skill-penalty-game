@@ -1,0 +1,47 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "罰ゲーム判定",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GetPenaltyGameIntent",
+          "slots": [],
+          "samples": [
+            "罰ゲーム",
+            "罰ゲームして",
+            "罰ゲーム言って",
+            "罰ゲーム教えて",
+            "罰ゲーム決めて",
+            "罰ゲーム出して",
+            "罰ゲームちょうだい",
+            "罰ゲーム話して",
+            "罰ゲームをして",
+            "罰ゲームを言って",
+            "罰ゲームを教えて",
+            "罰ゲームを決めて",
+            "罰ゲームを出して",
+            "罰ゲームをちょうだい",
+            "罰ゲームを話して"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}

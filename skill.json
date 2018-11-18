@@ -1,0 +1,45 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "ja-JP": {
+          "summary": "あなたの罰ゲームを決めてあげましょう。さあ、心の準備はいいですか…？",
+          "examplePhrases": [
+            "アレクサ、罰ゲーム判定を開いて",
+            "アレクサ、罰ゲーム判定を始めて",
+            "アレクサ、罰ゲーム判定"
+          ],
+          "keywords": [
+            "罰ゲーム",
+            "ゲーム"
+          ],
+          "smallIconUri": "https://s3-ap-northeast-1.amazonaws.com/gosign-alexa-assets/otoshidama/icon_small.png",
+          "largeIconUri": "https://s3-ap-northeast-1.amazonaws.com/gosign-alexa-assets/otoshidama/icon_large.png",
+          "name": "罰ゲーム判定",
+          "description": "罰ゲーム判定はランダムで罰ゲームを決めてくれるスキルです。\n宴会やパーティの余興、友達と遊ぶ時などに使ってみてください。\n\nこのスキルを始めるには、\n\"アレクサ、罰ゲーム判定を開いて\"\n\"アレクサ、罰ゲーム判定を始めて\"\n\"アレクサ、罰ゲーム判定\"\nのように話しかけてみてください。"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "1) 'アレクサ、罰ゲーム判定を開いて'と言ってください",
+      "category": "FRIENDS_AND_FAMILY",
+      "distributionCountries": [
+        "JP"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    }
+  }
+}
