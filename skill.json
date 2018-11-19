@@ -3,7 +3,7 @@
     "publishingInformation": {
       "locales": {
         "ja-JP": {
-          "summary": "あなたに罰ゲームの判定がくだされます。どんな罰ゲームが出てくるか、さあ心の準備はいいですか…？",
+          "summary": "あなたに罰ゲームの判定がくだされます。さてどんな罰ゲームが出てくるか、心の準備はいいですか…？",
           "examplePhrases": [
             "アレクサ、罰ゲーム判定を開いて",
             "アレクサ、罰ゲーム判定を始めて",
@@ -11,6 +11,7 @@
           ],
           "keywords": [
             "罰ゲーム",
+            "判定",
             "ゲーム"
           ],
           "smallIconUri": "https://s3-ap-northeast-1.amazonaws.com/gosign-alexa-assets/penalty-game/icon_small.png",
@@ -21,7 +22,7 @@
       },
       "isAvailableWorldwide": false,
       "testingInstructions": "1) 'アレクサ、罰ゲーム判定を開いて'と言ってください",
-      "category": "FRIENDS_AND_FAMILY",
+      "category": "NOVELTY",
       "distributionCountries": [
         "JP"
       ]
