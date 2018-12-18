@@ -38,6 +38,9 @@ const afterVoices2 = [
     "<say-as interpret-as='interjection'>いつでもどうぞ</say-as>"
 ];
 
+const smallImageUrl = 'https://s3-ap-northeast-1.amazonaws.com/gosign-alexa-assets/penalty-game/penalty-720x480.png';
+const largeImageUrl = 'https://s3-ap-northeast-1.amazonaws.com/gosign-alexa-assets/penalty-game/penalty-1200x800.png';
+
 const GetPenaltyGameHandler = {
     canHandle(handlerInput) {
       const request = handlerInput.requestEnvelope.request;
@@ -58,6 +61,7 @@ const GetPenaltyGameHandler = {
   
       return handlerInput.responseBuilder
         .speak(speechOutput)
+        .withStandardCard(SKILL_NAME, '罰ゲームを発表します。', smallImageUrl, largeImageUrl)
         .getResponse();
     },
   };
